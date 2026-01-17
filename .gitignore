@@ -31,7 +31,14 @@ yarn-error.*
 *.pem
 
 # local env files
+.env*
 .env*.local
+
+# Claude / local agent caches
+.claude/
+
+# Expo shared
+.expo-shared/
 
 # typescript
 *.tsbuildinfo
@@ -39,3 +46,6 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+.vercel
+nul
